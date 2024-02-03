@@ -1,5 +1,5 @@
-// API call?
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 const promptUser = () => {
     return inquirer.prompt([
@@ -36,7 +36,6 @@ const promptUser = () => {
         {
             type: 'list',
             name: 'license',
-
             message: 'What license did you use for this project?',
             choices: ["MIT", "none", "BSD3", "GPL3"]
         },
@@ -84,10 +83,12 @@ const generateREADME = ({ projectName, description, installation, usage, credits
 const init = () => {
     promptUser().then(function (answers) {
         console.log(answers)
+        fs.writeFile('README.md', generateREADME(answers), (err) =>
+        err ? console.error(err) : console.log('README complete!'));
     })
 }
 init();
 
-generateREADME.writeFile('README.md', generateREADME, (err) =>
-    err ? console.error(err) : console.log('README complete!')
-);
+// fs.writeFile('README.md', generateREADME, (err) =>
+//     err ? console.error(err) : console.log('README complete!')
+// );
