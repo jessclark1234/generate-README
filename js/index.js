@@ -48,36 +48,36 @@ const promptUser = () => {
 };
 
 const generateREADME = ({ projectName, description, installation, usage, credits, testing, license, contribute }) =>
-    `#${projectName}
+    ` # ${projectName}
 
-    ##Description
+## Description
 
-    ${description}
+${description}
 
-    ##Installation
+## Installation
 
-    ${installation}
+${installation}
 
-    ##Usage
+## Usage
 
-    ${usage}
+${usage}
 
-    ##Credits
+## Credits
 
-    ${credits}
+${credits}
 
-    ##Testing
+## Testing
 
-    ${testing}
+${testing}
 
-    ##License
+## License
 
-    ${license}
+${license}
 
-    ##How to Contribute
+## How to Contribute
 
-    ${contribute}
-    `;
+${contribute}
+`;
 
 
 const init = () => {
