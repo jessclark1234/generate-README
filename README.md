@@ -2,7 +2,8 @@
 
 ## Description
 
-![alt text](Screenshot (59).png)
+![alt text](project9.gif)
+![alt text](preview.png)
 
 This project was to show my knowledge on how to create a README only using backend technologies (i.e. index.js, fs, inquirer, npm). This can be used as a way to streamline writing a README for a project. Using only backend technologies was an interestig challenge.  Inquirer was used to prompt the user to the use of their project and fs was used to generate the text into the template format as well as create the file.
 
