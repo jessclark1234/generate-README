@@ -50,31 +50,41 @@ const promptUser = () => {
 const generateREADME = ({ projectName, description, installation, usage, credits, testing, license, contribute }) =>
     ` # ${projectName}
 
-## Description
+## Table of Contents
+
+-[Description](#description)
+-[Installation](#installation)
+-[Usage](#usage)
+-[Credits](#credits)
+-[Testing](#testing)
+-[License](#license)
+-[How to Contribute](#how-to-contribute)
+
+### Description
 
 ${description}
 
-## Installation
+### Installation
 
 ${installation}
 
-## Usage
+### Usage
 
 ${usage}
 
-## Credits
+### Credits
 
 ${credits}
 
-## Testing
+### Testing
 
 ${testing}
 
-## License
+### License
 
 ${license}
 
-## How to Contribute
+### How to Contribute
 
 ${contribute}
 `;
@@ -89,6 +99,4 @@ const init = () => {
 }
 init();
 
-// fs.writeFile('README.md', generateREADME, (err) =>
-//     err ? console.error(err) : console.log('README complete!')
-// );
+
