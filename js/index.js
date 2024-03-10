@@ -93,7 +93,7 @@ ${contribute}
 const init = () => {
     promptUser().then(function (answers) {
         console.log(answers)
-        fs.writeFile('README.md', generateREADME(answers), (err) =>
+        fs.writeFile('templateREADME.md', generateREADME(answers), (err) =>
         err ? console.error(err) : console.log('README complete!'));
     })
 }
