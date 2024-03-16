@@ -37,7 +37,7 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'What license did you use for this project?',
-            choices: ["MIT", "none", "BSD3", "GPL3"]
+            choices: ["MIT: https://opensource.org/license/mit", "none", "BSD3: https://opensource.org/license/bsd-3-clause", "GPL3: https://opensource.org/license/gpl-3-0"]
         },
         {
             type: 'input',
@@ -87,7 +87,6 @@ ${credits}
 ${testing}
 
 ### License
-![GitHub License](https://img.shields.io/github/${license}/:user/:repo)
 
 ${license}
 
