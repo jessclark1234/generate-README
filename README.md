@@ -27,6 +27,3 @@ The testing that took place during this was simply used in the integrated termin
 
 MIT: https://opensource.org/license/mit
 
-## How to Contribute
-
-If there are any ideas on how to contribute, please create a Github issue.
