@@ -3,11 +3,17 @@
 ## Table of Contents
 
 -[Description](#description)
+
 -[Installation](#installation)
+
 -[Usage](#usage)
+
 -[Credits](#credits)
+
 -[Testing](#testing)
+
 -[License](#license)
+
 -[How to Contribute](#how-to-contribute)
 
 ### Description
@@ -31,7 +37,7 @@ tst
 tst
 
 ### License
-![GitHub License](https://img.shields.io/github/{license}/:user/:repo)
+![GitHub License](https://img.shields.io/github/MIT/:user/:repo)
 
 MIT
 

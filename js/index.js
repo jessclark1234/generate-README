@@ -53,11 +53,17 @@ const generateREADME = ({ projectName, description, installation, usage, credits
 ## Table of Contents
 
 -[Description](#description)
+
 -[Installation](#installation)
+
 -[Usage](#usage)
+
 -[Credits](#credits)
+
 -[Testing](#testing)
+
 -[License](#license)
+
 -[How to Contribute](#how-to-contribute)
 
 ### Description
@@ -81,7 +87,7 @@ ${credits}
 ${testing}
 
 ### License
-![GitHub License](https://img.shields.io/github/{license}/:user/:repo)
+![GitHub License](https://img.shields.io/github/${license}/:user/:repo)
 
 ${license}
 
