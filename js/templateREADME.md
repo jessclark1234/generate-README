@@ -37,9 +37,8 @@ tst
 tst
 
 ### License
-![GitHub License](https://img.shields.io/github/MIT/:user/:repo)
 
-MIT
+BSD3: https://opensource.org/license/bsd-3-clause
 
 ### How to Contribute
 
