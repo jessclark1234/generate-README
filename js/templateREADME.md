@@ -38,7 +38,7 @@ tst
 
 ### License
 
-BSD3: https://opensource.org/license/bsd-3-clause
+MIT: https://opensource.org/license/mit
 
 ### How to Contribute
 
